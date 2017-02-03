@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="./css/dayparting.css" />
+	<script type="text/javascript" src="./jquery-1.7.min.js"></script>
+	<script type="text/javascript" src="./js/dayparting.js"></script>
+	<script type="text/javascript" src="./js/lib/jquery.disable.text.select.pack.js"></script>
+</head>
+<body>
+	<form action="" id="weeklyForm" submit="return false;" methode="post">
+		<input name="result" id="result" type="text" style="width:1024px"/>
+		<div class="" id="dayParting" >
+			
+
+		</div>
+		<div class="clear" style="clear:both;padding-bottom:15px;"></div>
+		
+		
+		
+		
+	</form>
+	<script type="text/javascript">
+	 
+        var dayparting = new dayParting({
+		  container : $("#dayParting"),
+		  // lang : 'EN',
+		  lang : "CN", //"CN" "EN"
+		  //数据是按周日周一周二---周六顺序处理
+		  values : '000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111111111111111111111111111111111111111000000000000000000000000',
+		  resultId:$("#result")
+		  
+		  
+		})
+	</script>
+	
+</body>
+</html>

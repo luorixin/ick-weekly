@@ -1,0 +1,200 @@
+#dayParting #dayParting_conatin table {
+  width: 737px;
+  height: 271px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  background:white;
+  font-size: 12px;
+}
+#dayParting{
+	clear:both;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	width:737px;
+	height: 271px;
+	color: #333333;
+}
+#dayParting .select_box{
+	border-left:dashed #dbdbdb;
+	border-right:dashed #dbdbdb;
+	border-bottom:dashed #dbdbdb;
+	border-top:dashed #dbdbdb;
+	border-width:thin;
+	height: 20px;
+	width: 23px;
+	cursor: crosshair;
+	box-sizing: border-box;
+}
+
+#dayParting .left_header{
+	text-align: center;
+	color:#51504f;
+	position:relative;/*让里面的两个子容器绝对定位*/
+	border-bottom: 1px solid #dbdbdb;
+	width: 112px;
+}
+#dayParting .container{
+	padding-top:20px;
+
+}
+#dayParting .header_line{
+	border-left: solid 1px #51504f;
+	border-right: solid 1px #51504f;
+	border-bottom: solid 1px #51504f;
+	height: 8px;
+	line-height: 5px;
+	
+}
+#dayParting .header_num_left{
+	border-left: solid 1px #51504f;
+	line-height: 5px;
+}
+#dayParting .header_num_center{
+	border-left: solid 1px #51504f;
+	line-height: 5px;
+}
+#dayParting .header_num_right{
+	border-right: solid 1px #51504f;
+	line-height: 5px;
+}
+#dayParting .header_num{
+	text-align: center;
+	border-left: 1px solid #dbdbdb;
+	border-right: 1px solid #dbdbdb;
+	cursor: pointer;
+	height: 20px;
+	width: 156px;
+	box-sizing: border-box;
+}
+#dayParting #padding_box  td{
+	border: none;
+	height:1px;
+}
+#dayParting .back_even{
+	background-color: #f5f5f5;
+}
+#dayParting .back_odd{
+	background-color: #f7f7f7;
+}
+#dayParting .padding{
+	height:20px;
+}
+#dayParting #left_time_header{
+	float:left;
+	padding-left: 26px;
+	width: 100px;
+	text-align: center;
+}
+#dayParting #center_time_header{
+	float: left;
+	padding-left: 60px;
+	text-align: center;
+	width: 100px;
+}
+#dayParting #right_time_header{
+	float:right;
+	padding-right:20px;
+}
+#dayParting #calendar_body{
+	margin: 0 auto;
+/*	width: 558px;*/
+}
+
+#dayParting .chosen_odd{
+	background-image: url(../images/shared/components/light-red.png);
+}
+#dayParting .chosen_even{
+	background-image: url(../images/shared/components/red.png);
+}
+#dayParting .chosen_grey{
+	background-color: #e6e6e6;
+}
+
+
+
+#dayParting #cal_all_time{
+	margin:0 10px 0 85px;
+	float:left;
+}
+#dayParting .cal_all_time_txt{
+	vertical-align: middle;
+	font-size: 12px;
+}
+
+#dayParting .time_box{
+	border: 1px solid #ededed;
+	border-bottom:1px solid #dbdbdb;
+	text-align: center;
+	cursor: pointer;
+	height: 20px;
+	width: 26px;
+	box-sizing: border-box;
+}
+#dayParting .week{
+	border: 1px solid #dbdbdb;
+	border-left: none;
+	cursor: pointer;
+	box-sizing: border-box;
+	font-size:12px;
+	width: 26px;
+	text-align: center;
+	padding:2px;
+	font-weight:bold;
+}
+
+#dayParting .day_name{
+	border: 1px solid #ebebeb;
+	border-right:1px solid #dbdbdb;
+	cursor: pointer;
+	width: 83px;
+}
+#dayParting .select_opt{
+	text-align: center;
+	border: 1px solid #ededed;
+
+}
+#dayParting #padding_box{
+	border-top: 1px solid #dbdbdb;
+
+	border-right: 1px solid #dbdbdb;
+	height: 27px;
+}
+#dayParting td .even{
+	background-color: #ededed;
+}
+#dayParting td .odd{
+	background-color: #D6D3D6;
+}
+
+#dayParting .time_match{
+	border:1px solid #dbdbdb;
+	border-right: transparent;
+	border-radius: 5px;
+}
+/*模拟对角线*/
+#dayParting .out{
+   /* border-top:60px #D6D3D6 solid; *//*上边框宽度等于表格第一行行高*/
+   width: 100px;/*让容器宽度为0*/
+   height: 100%;/*让容器高度为0*/
+   /* border-left:100px #BDBABD solid; *//*左边框宽度等于表格第一行第一格宽度*/	
+   position:relative;/*让里面的两个子容器绝对定位*/
+   border-radius: 1px solid #dbdbdb;
+}
+#dayParting b{font-style:normal;display:block;position:absolute;top: 25px;left: 5px;width:35px;}
+#dayParting em{font-style:normal;display:block;position:absolute;bottom: 25px;right: 10px;width:55x;}
+
+#dayParting .clears{cursor: pointer;}
+#dayParting .clears:hover{color:#e5392a;}
+
+#dayParting .clears{cursor: pointer;}
+#dayParting .clears:hover{color:#e5392a;}
+#dayParting .invert{cursor: pointer;}
+#dayParting .invert:hover{color:#e5392a;}
+#dayParting .br1{border-right: 1px solid #dbdbdb;}
+#dayParting .bl1{border-left:1px solid #dbdbdb;}
+#dayParting .brg {
+        background-image:url(../images/shared/components/line.png)
+}
